@@ -13,7 +13,7 @@ export function TeamsSection() {
   return (
     <section className="flex flex-1 align-middle justify-center m-10">
       {TEAMS.map((t) => {
-        return <TeamsCard teamInfo={t} />;
+        return <TeamsCard key={t.key} teamInfo={t} />;
       })}
     </section>
   );
@@ -21,7 +21,7 @@ export function TeamsSection() {
 
 export function TeamsCard({ teamInfo }: { teamInfo: TeamInfo }) {
   return (
-    <Card key={teamInfo.key} className="w-1/4 w-max-sm text-center">
+    <Card className="w-1/4 w-max-sm text-center">
       <CardHeader>
         <CardTitle className="text-xl">{teamInfo.name}</CardTitle>
         <CardDescription className="text-md text-card-foreground">
