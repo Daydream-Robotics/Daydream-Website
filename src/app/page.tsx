@@ -1,6 +1,6 @@
 import AboutUsCard from "@/components/AboutUsCard";
 import HomepageHero from "@/components/HomepageHero";
-import { TeamsSection } from "@/components/TeamsSection";
+import TeamsSection from "@/components/TeamsSection";
 
 export default function Home() {
   return (
