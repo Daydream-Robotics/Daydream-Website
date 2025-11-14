@@ -3,13 +3,16 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function AboutUsCard() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h2 className="text-4xl font-bold m-3">About Us</h2>
-      <Card className="w-full max-w-md">
-        <CardContent>
+      <h2 className="text-5xl font-bold m-1  ">About Us</h2>
+      <div className=" mb-3 w-300 border-b-4 "></div>
+      <div className="w-Full max-w-300 ">
+        
+          
           <h4 className="font-bold text-center text-card-foreground text-xl">
-            Daydream Robotics
+            
           </h4>
-          <p className="text-foreground">
+          
+          <p className="text-forground text-xl text-center ">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
             ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
@@ -18,8 +21,8 @@ export default function AboutUsCard() {
             pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
             culpa qui officia deserunt mollit anim id est laborum.
           </p>
-        </CardContent>
-      </Card>
+        
+      </div>
     </div>
   );
 }
