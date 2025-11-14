@@ -5,18 +5,19 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
+import { Badge } from "./ui/badge";
 
-interface TeamInfo {
-  key: string;
-  name: string;
-  teamImage: string;
-  shortDescription: string;
-  longDescription: string;
-  teamLeads: string[];
-  skills: string[];
+import { type TeamInfo, TEAMS } from "@/data/teams";
+
+export function TeamsSection() {
+  return (
+    <section className="flex flex-1 align-middle justify-center m-10">
+      {TEAMS.map((t) => {
+        return <TeamsCard teamInfo={t} />;
+      })}
+    </section>
+  );
 }
-
-export function TeamsSection() {}
 
 export function TeamsCard({ teamInfo }: { teamInfo: TeamInfo }) {
   return (
@@ -38,7 +39,19 @@ export function TeamsCard({ teamInfo }: { teamInfo: TeamInfo }) {
         </p>
         <span className="text-accent border-b-2 border-accent">Skills</span>
         {teamInfo.skills.map((s) => {
-          return <div></div>;
+          return (
+            <div className="flex">
+              <Badge className="bg-accent">{s}</Badge>
+            </div>
+          );
+        })}
+        <span className="text-accent border-b-2 border-accent">Team Leads</span>
+        {teamInfo.teamLeads.map((s) => {
+          return (
+            <div className="flex">
+              <Badge className="bg-accent">{s}</Badge>
+            </div>
+          );
         })}
       </CardContent>
     </Card>

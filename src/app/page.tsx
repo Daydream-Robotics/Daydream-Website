@@ -1,5 +1,6 @@
 import AboutUsCard from "@/components/AboutUsCard";
 import HomepageHero from "@/components/HomepageHero";
+import { TeamsSection } from "@/components/TeamsSection";
 
 export default function Home() {
   return (
@@ -12,6 +13,8 @@ export default function Home() {
         </div> */}
 
         <AboutUsCard />
+
+        <TeamsSection />
       </main>
     </div>
   );
