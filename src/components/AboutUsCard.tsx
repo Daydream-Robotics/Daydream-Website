@@ -3,8 +3,8 @@ import { Card, CardContent } from "@/components/ui/card";
 export default function AboutUsCard() {
   return (
     <div className="flex flex-col items-center justify-center">
-      <h2 className="text-5xl font-bold m-1  ">About Us</h2>
-      <div className=" mb-3 w-300 border-b-4 "></div>
+      <h2 className="text-6xl font-bold m-1  ">About Us</h2>
+      <div className=" mb-3 w-full  max-w-300 border-b-4 border-accent "></div>
       <div className="w-Full max-w-300 ">
         
           
