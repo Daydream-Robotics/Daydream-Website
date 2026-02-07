@@ -1,3 +1,6 @@
+
+
+
 export interface TeamInfo {
   key: string;
   name: string;
@@ -8,6 +11,8 @@ export interface TeamInfo {
   skills: string[];
 }
 
+
+//Use this to edit teams, add teams, and delete teams
 export const TEAMS: TeamInfo[] = [
   {
     key: "mechanical",
@@ -19,4 +24,13 @@ export const TEAMS: TeamInfo[] = [
     teamLeads: ["Ross", "Joseph"],
     skills: ["CAD", "Mechanical stuff"],
   },
+  {
+    key: "programming",
+    name: "programming",
+    teamImage: "/file.svg",
+    shortDescription: "CODE",
+    longDescription: "ALOT OF CODE",
+    teamLeads: ["Alex"],
+    skills: ["code"],
+  }
 ];

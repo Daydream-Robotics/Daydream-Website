@@ -9,6 +9,7 @@ import { Badge } from "./ui/badge";
 
 import { type TeamInfo, TEAMS } from "@/data/teams";
 
+//loops through the teams to create a card for each team by calling TeamsCard()
 export function TeamsSection() {
   return (
     <section className="flex flex-1 align-middle justify-center m-10">
@@ -19,6 +20,8 @@ export function TeamsSection() {
   );
 }
 
+
+//creates the card for a team
 export function TeamsCard({ teamInfo }: { teamInfo: TeamInfo }) {
   return (
     <Card className="w-1/4 w-max-sm text-center">
