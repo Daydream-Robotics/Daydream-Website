@@ -26,11 +26,49 @@ export const TEAMS: TeamInfo[] = [
   },
   {
     key: "programming",
-    name: "programming",
+    name: "Programming",
     teamImage: "/file.svg",
-    shortDescription: "CODE",
-    longDescription: "ALOT OF CODE",
-    teamLeads: ["Alex"],
-    skills: ["code"],
+    shortDescription: "[Enter Short Description Here]",
+    longDescription: "[Enter Long Description Here]",
+    teamLeads: ["Enter Leads Here"],
+    skills: ["Enter Skills Here"],
+  },
+  {
+    key: "electrical",
+    name: "Electrical",
+    teamImage: "/file.svg",
+    shortDescription: "[Enter Short Description Here]",
+    longDescription: "[Enter Long Description Here]",
+    teamLeads: ["Enter Leads Here"],
+    skills: ["Enter Skills Here"]
+  },
+  {
+  key: "design",
+  name: "Design",
+  teamImage: "/file.svg",
+  shortDescription: "[Enter Short Description Here]",
+  longDescription: "[Enter Long Description Here]",
+  teamLeads: ["Enter Leads Here"],
+  skills: ["Enter Skills Here"]
+  },
+  {
+  key: "notebook",
+  name: "Notebook",
+  teamImage: "/file.svg",
+  shortDescription: "[Enter Short Description Here]",
+  longDescription: "[Enter Long Description Here]",
+  teamLeads: ["Enter Leads Here"],
+  skills: ["Enter Skills Here"]
+  },
+  {
+  key: "drive",
+  name: "Drive",
+  teamImage: "/file.svg",
+  shortDescription: "[Enter Short Description Here]",
+  longDescription: "[Enter Long Description Here]",
+  teamLeads: ["Enter Leads Here"],
+  skills: ["Enter Skills Here"]
   }
+  
+
 ];
