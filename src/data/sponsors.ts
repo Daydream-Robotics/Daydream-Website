@@ -10,28 +10,47 @@ export interface SponsorInfo {
 
 export const SPONSORS: SponsorInfo[] = [
     {
-        key: "rccf",
+        key: "rccf1",
         name: "RCCF",
         link: "rccf.club",
         img: "/rccfLogo.jpg",
     },
     {
-        key: "rccf",
+        key: "rccf2",
         name: "RCCF",
         link: "rccf.club",
         img: "/rccfLogo.jpg",
     },
     {
-        key: "rccf",
+        key: "rccf3",
         name: "RCCF",
         link: "rccf.club",
         img: "/rccfLogo.jpg",
     },
     {
-        key: "rccf",
+        key: "rccf4",
         name: "RCCF",
         link: "rccf.club",
         img: "/rccfLogo.jpg",
     },
+        {
+        key: "rccf5",
+        name: "RCCF",
+        link: "rccf.club",
+        img: "/rccfLogo.jpg",
+    },
+    {
+        key: "rccf6",
+        name: "RCCF",
+        link: "rccf.club",
+        img: "/rccfLogo.jpg",
+    },
+    {
+        key: "rccf7",
+        name: "RCCF",
+        link: "rccf.club",
+        img: "/rccfLogo.jpg",
+    },
+
 
 ]
