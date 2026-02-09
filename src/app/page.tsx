@@ -2,6 +2,7 @@ import AboutUsCard from "@/components/AboutUsCard";
 import HomepageHero from "@/components/HomepageHero";
 import { TeamsSection } from "@/components/TeamsSection";
 import { TeamsCard } from "@/components/TeamsSection";
+import { SponsorSection } from "@/components/SponsorSection";
 
 export default function Home() {
   return (
@@ -19,6 +20,8 @@ export default function Home() {
         
 
         <TeamsSection />
+
+        <SponsorSection />
       </main>
     </div>
   );

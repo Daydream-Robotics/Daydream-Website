@@ -58,7 +58,7 @@ export function MainNavbar() {
         {/* Logo/Name */}
       <Link href="/" className="text-2xl f~ont-bold tracking-tight">
           <span className=" text-foreground hover:text-secondary transition">
-            DayDream Robotics  (all colors will change 💀 *cough cough ammar cough*)
+            DayDream Robotics  (all colors will change)
           </span>
         </Link>
 
