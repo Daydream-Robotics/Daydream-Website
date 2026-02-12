@@ -44,7 +44,7 @@ export function MainNavbar() {
   // --- Dynamic Styling ---
   const headerClasses = `
     fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out
-    h-20 flex items-center justify-center bg-red-500
+    h-20 flex items-center justify-center bg-secondary
     ${
       isScrolled
         ? "bg-background/90 shadow-lg backdrop-blur-sm " // When scrolled, add background/shadow
@@ -54,21 +54,21 @@ export function MainNavbar() {
 
   return (
     <header className={headerClasses}>
-      <nav className="flex items-center justify-between w-full max-w-7xl px-4 md:px-8">
+      <nav className="flex items-center justify-between w-full max-w-19/20 px-4 md:px-8">
         {/* Logo/Name */}
-      <Link href="/" className="text-2xl f~ont-bold tracking-tight">
-          <span className=" text-foreground hover:text-secondary transition">
-            DayDream Robotics  (all colors will change)
+      <Link href="/" className="text-3xl font-bold tracking-tight">
+          <span className=" text-foreground hover:text-secondary-foreground transition">
+            DayDream Robotics 
           </span>
         </Link>
 
-        {/* --- Desktop Navigation --- */}
+        {/* --- Desktop Naviation --- */}
         <div className="hidden md:flex items-center space-x-6">
           {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
-              className="text-lg font-medium text-muted-foreground hover:text-foreground transition-colors relative group"
+              className="text-2xl font-medium text-muted-foreground hover:text-foreground transition-colors relative group"
             >
               {link.title}
               {/* Underline hover effect */}

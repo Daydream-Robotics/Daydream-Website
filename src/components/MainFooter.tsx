@@ -4,8 +4,8 @@ import Link from "next/link";
 import Image from "next/image";
 
 const socialLinks = [
-  { src: "/window.svg", href: "instagram.com", title: "Instagram" },
-  { src: "/window.svg", href: "discord.com", title: "Discord" },
+  { src: "/daydreamInstaPhoto.jpg", href: "instagram.com", title: "Instagram" },
+  { src: "/discordIcon.png", href: "discord.com", title: "Discord" },
 ];
 
 export function MainFooter() {
@@ -26,7 +26,7 @@ export function MainFooter() {
                 <Image
                   src={link.src}
                   alt={link.title}
-                  className="object-cover"
+                  className="rounded-full"
                   layout="fill"
                 />
               </div>
@@ -36,7 +36,7 @@ export function MainFooter() {
 
         <div className="text-sm md:text-2xs font-bold tracking-tight mx-2 right-0">
           <span className=" text-foreground/20 transition">
-            Last Updated November 4th, 2025
+            Last Updated Feburary 9, 2026
           </span>
         </div>
       </div>

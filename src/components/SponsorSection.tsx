@@ -5,9 +5,9 @@ import Image from "next/image"
 export function SponsorSection() {
   return (
     <section className="justify-center items-center">
-        <h2 className="text-6xl text-foreground font-extrabold text-center mt-20 mb-10">Meet Our Sponsors!</h2>
+        <h2 className="text-6xl text-foreground font-extrabold text-center mt-20 mb-20">Meet Our Sponsors!</h2>
         
-        <div className="flex flex-wrap gap-20 justify-center">
+        <div className="flex flex-wrap gap-20 justify-center ml-20 mr-20">
 
         
       {SPONSORS.map((s) => {
